@@ -1,0 +1,352 @@
+body,html{
+        height: 100%;
+        color: #000000; 
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Noto Sans KR', sans-serif;
+   		}
+
+   		a{text-decoration: none;}
+  		a:link {color: #000000;}
+  		a:visited {color: #000000;}		
+  		a:hover {color: #d83958;}
+
+  		body {
+   			 font-family: 'Noto Sans KR', sans-serif;
+   			 font-family: 'Noto Sans', sans-serif;
+   		}
+
+
+
+
+
+
+		.back{
+			height: 100%;
+			background-attachment: fixed;
+        	background-position: center;
+        	background-repeat: no-repeat;
+        	background-size: cover;
+		}
+		.back h2{
+			margin: 0px;
+		}
+
+		.text {color: gray;}
+
+		li{
+			list-style: none;
+		}
+		.float {
+			float: left;
+		}
+		#menu {
+			margin-left: 40px;
+		}
+
+
+		#product_set ul {
+			padding-left: 0px;
+		}
+
+
+/* 메뉴 */
+
+	#menu {
+		z-index: 1;
+		position: absolute;
+	}
+	#menu ul {
+		position: fixed;
+		left: 0px;
+		top: 12px;
+	}
+	#menu ul li:nth-child(1){
+		padding-left: none;
+
+	}
+	#menu ul li:nth-child(2){
+		padding-top: 15px;
+		padding-left: 40px;
+	}
+	#menu ul li:nth-child(3){
+		padding-top: 15px;
+		padding-left: 40px;
+	}
+	#menu ul li {
+		list-style: none;
+		float: left;
+	}
+	
+
+	#menu img {
+		width: 160px;
+	
+	}
+	#top_button {
+		position: fixed;
+		right:40px;
+		bottom: 60px;
+	}
+	#top_button img {
+		width: 60px;
+	}
+
+/* d1 */
+	#d1 {
+		background-image: url("source/d1_bg.jpg");
+		
+		min-height: 100%;
+		padding-top: 20px;
+	}
+
+		#d1_left {
+			width: 50%;
+		}
+		#d1_right{
+			width: 50%;
+		}
+
+		#d1_product {
+			width: 600px;
+			padding-top: 150px;
+		}
+		#d1_text{
+			padding-top: 50px;
+			padding-left: 150px;
+		}
+
+		#d1_title {
+			padding-top: 120px;
+			width: 700px;
+			font-size: 50px;
+			line-height: 60px;
+			font-family:'Covered By Your Grace', cursive;
+		}
+		#d1_sub {
+			padding-top: 30px;
+			font-size: 25px;
+			line-height: px;
+		}
+		#d1_info {
+			padding-top: 40px;
+			font-size: 20px;
+			line-height: px;
+		}
+		#d1_view {
+			padding-top: 40px;
+			
+		}
+		#d1_view img {
+			width: 200px;
+		}
+
+
+
+/* d2 */
+	#d2 {
+		height: 200px;
+	}
+
+	#cate {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+
+	}
+	#cate1{
+		background-image: url(source/d2_cate1.png);
+		background-size: 500px;
+		background-repeat: no-repeat;
+		background-position: center;
+
+		width:  500px;
+		height: 200px;
+		padding-left: 20px;
+		padding-right:20px;
+		margin-right: 20px;
+		padding-top: 55px;
+
+		font-size: 40px;
+		text-align: center;
+		color: white;
+		font-family:'Covered By Your Grace', cursive;
+		
+	}
+
+	#cate2{
+		background-image: url(source/d2_cate2.png);
+		background-size: 500px;
+		background-repeat: no-repeat;
+		background-position: center;
+
+		width:  500px;
+		height: 200px;
+		padding-left: 20px;
+		padding-right:20px;
+		margin-left: 20px;
+		padding-top: 55px;
+
+		font-size: 40px;
+		text-align: center;
+		color: white;
+		font-family:'Covered By Your Grace', cursive;
+	}
+
+
+
+
+/* d3 best item */
+	#d3 {
+		background-image: url("soussrce/bg_test/333.jpg");
+		padding-bottom: 40px;
+		
+		
+	}
+	#d3ss_line {
+		border:solid 1px gray;
+		margin-top:70px;
+
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	#best {
+		
+		width: 100%;
+		display: flex;
+		justify-content: center;
+
+		margin-top: 80px;
+		font-family:'Covered By Your Grace', cursive;
+		font-size: 30px;
+	}
+
+	#product_set {
+		padding-top: 10px;
+		padding-bottom: 80px;
+
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		
+		
+	}
+	#product {
+		margin: 20px;
+		
+
+	}
+	#product img{
+		width: 300px;
+	}
+	
+
+	#name {
+		width: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		text-align: center;
+
+		padding-top: 10px;
+	}
+
+	#price {
+		width: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		text-align: center;
+
+		padding-top: 3px;
+	}
+
+
+
+
+
+
+/* d4 */
+	#d4 {
+		margin-top: 100px;
+		
+		margin-bottom: 100px;
+		background-color: white;
+	}
+
+
+
+
+
+/* footer */	
+	footer {
+		background-color: #000000;	
+		color: #ffffff;
+		padding: 50px;
+		height: 40%;
+	}
+	footer p {
+		line-height: 27px;
+		font-size:13px;
+		float: left;
+
+	}
+	#footer_sns1 {
+		margin: 10px;
+		
+
+	}
+	#footer_sns1 img{
+		width: 20px;
+	}
+
+	#footer_sns2 {
+		margin: 10px;
+		padding-left: 5px;
+		padding-top: 20px;
+		
+	}
+	#footer_sns2 img{
+		width: 20px;
+
+	}
+
+	#footer_sns3 {
+		margin: 10px;
+		float: right;
+
+	}
+	#footer_sns3 img{
+		width: 20px;
+	}
+
+
+
+
+/* clear */	
+	.clear {
+		clear:both;/*양쪽 플롯을 지웁니다 뭔소리지*/
+		margin:0px ;
+		padding: 0px;
+		overflow:hidden; /*넘어가는건 자동으로 숨겨줌*/
+		height: 0px;
+		margin: 0px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+

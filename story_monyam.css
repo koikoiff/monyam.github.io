@@ -1,0 +1,686 @@
+		body,html{
+        height: 100%;
+        color: #000000; 
+        margin: 0px;
+        font-family: 'Noto Sans KR', sans-serif;
+   		}      
+   		
+
+   		body {
+   			 font-family: 'Noto Sans KR', sans-serif;
+   			 font-family: 'Noto Sans', sans-serif;
+   		}
+
+
+
+
+   		a{text-decoration: none;}
+  		a:link {color: #000000;}
+  		a:visited {color: #000000;}		
+  		a:hover {color: #d83958;}
+
+
+		.back{
+			height: 100%;
+			background-attachment: fixed;
+        	background-position: center;
+        	background-repeat: no-repeat;
+        	background-size: cover;
+		}
+		.back h2{
+			margin: 0px;
+		}
+
+		.text {color: gray;}
+
+		li{
+			list-style: none;
+		}
+		.float {
+			float: left;
+		}
+		
+
+
+
+/* 메뉴 */
+
+	#menu {
+		z-index: 1;
+		position: absolute;
+	}
+	#menu ul {
+		position: fixed;
+		left: 0px;
+		top: 12px;
+	}
+	#menu ul li:nth-child(1){
+		padding-left: none;
+
+	}
+	#menu ul li:nth-child(2){
+		padding-top: 15px;
+		padding-left: 40px;
+	}
+	#menu ul li:nth-child(3){
+		padding-top: 15px;
+		padding-left: 40px;
+	}
+	#menu ul li {
+		list-style: none;
+		float: left;
+	}
+	
+
+	#menu img {
+		width: 160px;
+	
+	}
+	#top_button {
+		position: fixed;
+		right:40px;
+		bottom: 60px;
+	}
+	#top_button img {
+		width: 60px;
+	}
+
+/* c1 */
+	#c1 {
+		background-image: url("source/c1_bg.jpg");
+		min-height: 100%;
+		width: 100%;
+		
+	}
+	#c1_wrap {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 1050px;
+		}
+
+		#overview_title { 
+		font-size: 60px; 
+		line-height: 130%;
+		font-family:'Covered By Your Grace', cursive;
+		padding-top: 130px; 
+
+		
+		}
+
+		#overview_title_sub { 
+		padding-top: 10px;
+		 }
+
+		 #c1 ul li {
+		 	list-style: none;
+		 }
+		 #c1 ul {
+		 	padding-left: 0px;
+		 }
+
+		 #step_set {
+			padding-top: 50px;
+			padding-left: 0px;
+			
+			
+		 }
+		 .float{
+		 	float: left;
+		 }
+
+		 #c1_set {
+		 	padding-right: 50px;
+		 	font-size: 13px;
+		 }
+
+		 #step1{
+		 	border-top: 1px solid black;
+		 	padding-top: 20px;
+		 	width: 300px;
+		 	
+
+		 	
+		 }
+
+		 #step1_1 {
+
+		 	padding-top: 15px;
+		 	width: 300px;
+		 }
+
+		 #step2{
+		 	border-top: 1px solid black;
+		 	padding-top: 20px;
+		 	width: 300px;
+		 	
+		 }
+		 #step2_1 {
+
+		 	padding-top: 15px;
+		 	width: 300px;
+		 }
+		 #step3{
+		 	border-top: 1px solid black;
+		 	padding-top: 20px;
+		 	width: 300px;
+		 	
+		 }
+		 #step3_1 {
+
+		 	padding-top: 15px;
+		 	width: 300px;
+		 }
+	
+		 .step_number{
+		 	font-family:'Covered By Your Grace', cursive;
+		 	font-size: 30px;
+		 }
+
+
+
+
+
+/* c2 */
+	#c2_title {
+		line-height: 130%;
+		font-size: 60px;
+		font-family:'Covered By Your Grace', cursive;
+
+		padding-top: 60px;
+
+		width: 100%;
+		display: flex;
+		justify-content: center;
+
+
+	}
+
+	#c2_wrap{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 1050px;
+		height: 100%;
+		position: relative;
+
+	}
+	#c2 img {
+		
+		width: 1100px;
+		min-width: 600px;
+		padding-top:;
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+
+	}
+	#c2_text {
+		padding-top: 20px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+
+		line-height: 150%;
+		
+	}
+
+
+
+
+/* c3 */
+	#c3 {
+		background-color: #f3f3f3;
+		min-height: 100%;
+		position: relative;
+		overflow: hidden;
+		padding: 50px;
+
+
+	}
+
+	#c3_title{
+		
+		font-family:'Covered By Your Grace', cursive;
+		font-size: 40px;
+	}
+	#c3_text {
+		
+	}
+
+	#c3_cate {
+		
+	}
+
+
+
+
+
+	#c3_number1 {
+		font-size: 10px;
+		padding-right: 10px;
+		color: #d83958;
+		font-weight: bold;
+
+	}
+	#c3_name1 {
+		font-size: 17px;
+		color: #d83958;
+		font-weight: bold;
+	}
+	#c3_number2 {
+		font-size: 10px;
+		padding-right: 10px;
+		color: #e79756;
+		font-weight: bold;
+
+	}
+	#c3_name2 {
+		font-size: 17px;
+		color: #e79756;
+		font-weight: bold;
+	}
+	#c3_number3 {
+		font-size: 10px;
+		padding-right: 10px;
+		color: #1eab6c;
+		font-weight: bold;
+
+	}
+	#c3_name3 {
+		font-size: 17px;
+		color: #1eab6c;
+		font-weight: bold;
+	}
+
+
+
+
+
+
+
+	#c3_cate img {
+		width:50px;
+		margin-right: 20px;
+	}
+
+
+	#c3_product_list {
+		padding-top: 100px;
+		padding-left: 0px;
+		width: 1200px;
+
+
+
+	}
+	#c3_product_list li {
+		padding-right: 20px;
+	}
+	#c3_product_list img {
+		width: 280px;
+	}
+	#c3_product_text {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	#c3_left_text {
+		width: 600px;
+	}
+	#c3_right_text{
+		width: 600px;
+	}
+
+	#c3_top {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	#c3_bottom {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	
+
+
+
+
+/* c4 */
+	#c4 {
+		background-image: url("source/c4_bg.gif");
+		min-height: 100%;
+		position: relative;
+	}
+	#c4_content {
+		position: absolute;
+		top: 15%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	#c4_title {
+		font-size: 60px; 
+		line-height: 100px;
+		font-family:'Covered By Your Grace', cursive;
+		padding-top: 200px;
+	}
+	#c4_sub {
+		width: 600px;
+		padding-top: 10px;
+	}
+
+
+
+/* c5 */
+
+	#c5 {
+		
+		min-height: 100%;
+		position: relative;
+		
+	}
+
+	#c5_wrap {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding-top: 100px;
+		
+	}
+	#c5 ul {
+		padding-left: 0px;
+	}
+	#c5_left {
+		width: 40%;
+		height: 600px;
+		
+
+	}
+	#c5_left_contents {
+		
+		height: 600px;
+		background-image: url(source/c5_left_bg.png);
+		background-repeat: no-repeat;
+		background-size:300px;
+
+	}
+	#c5_title {
+		line-height: 130%;
+		font-size: 60px;
+		font-family:'Covered By Your Grace', cursive;
+		padding-left: 50px;
+		padding-top: 30px;
+	}
+	#c5_text {
+		width: 350px;
+		padding-top: 20px;
+		padding-left: 50px;
+	}
+
+
+	#c5_right {
+		width: 60%;
+		padding-left: 150px;
+		
+	}
+	#c5_right img{
+		width: 450px;
+
+	}
+
+
+
+
+
+
+
+
+
+
+/* c6 */
+	#c6 {
+		position: relative;
+
+	}
+
+	#c6 img{
+		position: absolute;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: center;
+		top: -50px;
+
+	}
+	#c6_script {
+		position: absolute;
+		top: 60%;
+		
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: center;
+
+		padding-right: 100px;
+		padding-left: 20px;
+		padding-top: 30px;
+	}
+
+	#c6_script li {
+		width: 280px;
+		text-align: left;
+	
+	}
+	#be {
+		margin-left: 30px;
+	}
+	#gyu {
+		margin-left: 30px;
+	}
+
+
+
+	#c6_title {
+		position: absolute;
+		width: 200px;
+		display: flex;
+		justify-content: center;
+		z-index: 13;
+		height: 200px;
+
+		background-image: url(source/c6_shape.png);
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: 200px;
+
+
+		font-size: 60px; 
+		line-height: 100px;
+		font-family:'Covered By Your Grace', cursive;
+		
+
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		
+		line-height: 100%;
+	}
+
+	.c6_name1{
+		font-family:'Covered By Your Grace', cursive;
+		font-size: 40px;
+		display: inline;
+		padding: 0px;
+	}
+
+	.c6_name2 {
+		
+		font-size: 20px;
+		display: inline;
+		padding-left: 10px;
+
+	}
+	.c6_sub {
+		padding-top: 20px;
+	}
+
+
+
+/* c7 */
+	#c7 {
+		position: relative;
+		min-height: 100%;
+
+
+	}
+
+	#c7 ul{
+		padding-left: 0px;
+
+	}
+	
+	#c7_wrap {
+		
+	
+	}
+
+
+	#contact_us {
+		font-family:'Covered By Your Grace', cursive;
+		font-size: 20px;
+		display: block;
+		padding-bottom: 20px;
+	}
+	#our_team {
+		font-family:'Covered By Your Grace', cursive;
+		font-size: 20px;
+	}
+
+	#c7_left {
+		font-family:'Covered By Your Grace', cursive;
+		font-size: 40px;
+		line-height: 130%;
+		width: 500px;
+
+		
+	}
+	#c7_right {
+		font-size: 20px;
+		width: 500px;
+		background-image: url(source/c7_shape.png);
+		background-repeat: no-repeat;
+		background-size: 220px;
+		background-position: left;
+		height: 220px;
+		padding-right: 100px;
+
+	}
+	#we {
+		
+			
+	}
+	#person {
+		margin-right: 60px;
+	}
+	#person img {
+		width: 200px;
+	}
+
+
+	#c7_top {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	#c7_bottom {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding-bottom: 100px;
+	}
+
+
+
+/* footer */	
+	footer {
+		background-color: #000000;	
+		color: #ffffff;
+		padding: 50px;
+		height: 40%;
+	}
+	footer p {
+		line-height: 27px;
+		font-size:13px;
+		float: left;
+
+	}
+	#footer_sns1 {
+		margin: 10px;
+		
+
+	}
+	#footer_sns1 img{
+		width: 20px;
+	}
+
+	#footer_sns2 {
+		margin: 10px;
+		padding-left: 5px;
+		padding-top: 20px;
+		
+	}
+	#footer_sns2 img{
+		width: 20px;
+
+	}
+
+	#footer_sns3 {
+		margin: 10px;
+		float: right;
+
+	}
+	#footer_sns3 img{
+		width: 20px;
+	}
+
+
+
+
+/* clear */	
+	.clear {
+		clear:both;/*양쪽 플롯을 지웁니다 뭔소리지*/
+		margin:0px ;
+		padding: 0px;
+		overflow:hidden; /*넘어가는건 자동으로 숨겨줌*/
+		height: 0px;
+		margin: 0px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
